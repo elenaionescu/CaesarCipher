@@ -22,7 +22,7 @@ const CaesarCipher: React.FC = () => {
         <form onSubmit={handleSubmit}>
             <div>
                 <label htmlFor="input">Text: </label>
-                <input type="text" id="input" value={input} onChange={handleChange} />
+                <input type="text" id="input" size={150} value={input} onChange={handleChange} />
             </div>
             <div>
                 <label htmlFor="shift">Shift: </label>
